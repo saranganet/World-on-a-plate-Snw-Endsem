@@ -1,0 +1,74 @@
+.booking-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.booking-title {
+    color: var(--gold-crayola);
+    font-family: 'Forum', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.form-group input, .form-group select {
+    padding: 12px;
+    border: 1px solid var(--gold-crayola);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus, .form-group select:focus {
+    outline: none;
+    border-color: var(--gold-crayola);
+    box-shadow: 0 0 5px var(--gold-crayola);
+}
+
+.submit-btn {
+    background: var(--gold-crayola);
+    color: var(--smoky-black-1);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: var(--white);
+}
+
+.hidden-copyright {
+    opacity: 0;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
